@@ -25,9 +25,9 @@ variable "private_subnet_cidr" {
 }
 
 variable "onprem_cidr" {
-  description = "CIDR du réseau on-prem (VMware)"
+  description = "CIDR autorisé pour SSH"
   type        = string
-  default     = "192.168.1.0/24"
+  default     = "0.0.0.0/0"
 }
 
 variable "ami_id" {

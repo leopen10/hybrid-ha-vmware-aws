@@ -1,0 +1,2 @@
+{"timestamp": "2026-05-13T21:32:54.643807", "event": "FAILOVER", "status": "SUCCESS", "active_site": "AWS", "ec2_ip": "44.211.56.216", "reason": "on-prem unreachable"}
+{"timestamp": "2026-05-13T21:36:33.763241", "event": "FAILBACK", "status": "SUCCESS", "active_site": "ON-PREM", "reason": "on-prem recovered"}
